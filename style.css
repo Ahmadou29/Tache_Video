@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Redressed&display=swap');
+
+.bg-light{
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    color: white !important;
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+}
+
+.navbar{
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.btn-btn:hover{
+    background-color: green;
+    color: white !important;
+}
+
+.navbar::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    transition: 0.5s;
+    bottom: 0;
+}
+
+.navbar .active::after,
+.navbar:hover::after{
+    /* width: 78%; */
+    /* margin-bottom: 1px; */
+}
+
+.banner .banner-src{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("img/bg.jpg") fixed;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cc-menu, .order-form{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("img/pexels-life-of-pix-67468.jpg") fixed;
+    height: 220vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.order-form{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("img/pexels-life-of-pix-67468.jpg") fixed;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
